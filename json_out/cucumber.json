@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "search for restaurants in area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants-for-hungry-customer-in-my-area;search-for-restaurants-in-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I want food in \"AR51 1AA\"",
+            "match": {
+              "location": "SearchResDefination.I_want_food_in_AR511AA()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I search for restaurants",
+            "match": {
+              "location": "SearchResDefination.I_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I should see some restaurants in \"AR51 1AA\"",
+            "match": {
+              "location": "SearchResDefination.I_should_see_some_restaurants_in_AR511AA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "SearchResDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants for hungry customer in my area",
+    "description": "",
+    "id": "use-the-website-to-find-restaurants-for-hungry-customer-in-my-area",
+    "keyword": "Feature",
+    "uri": "C:/Users/aarna/eclipse-workspace/JustEatRestaurentProject/src/test/java/feature/searchRes.feature"
+  }
+]

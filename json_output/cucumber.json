@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "search for restaurants in area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants-for-hungry-customer-in-my-area;search-for-restaurants-in-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9795849867,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want food in \"AR51 1AA\"",
+            "match": {
+              "location": "SearchResDefination.I_want_food_in_AR511AA()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6392359375,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for restaurants",
+            "match": {
+              "location": "SearchResDefination.I_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4086026206,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d81.0.4044.129)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027AAVISH\u0027, ip: \u0027192.168.66.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\aarna\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5d67f4ba9831a6a59eb451598e1a77cc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat stepDefinations.SearchResDefination.I_should_see_some_restaurants_in_AR511AA(SearchResDefination.java:36)\r\n\tat ✽.Then I should see some restaurants in \"AR51 1AA\"(C:/Users/aarna/eclipse-workspace/JustEatRestaurentProject/src/test/java/feature/searchRes.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I should see some restaurants in \"AR51 1AA\"",
+            "match": {
+              "location": "SearchResDefination.I_should_see_some_restaurants_in_AR511AA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "SearchResDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants for hungry customer in my area",
+    "description": "",
+    "id": "use-the-website-to-find-restaurants-for-hungry-customer-in-my-area",
+    "keyword": "Feature",
+    "uri": "C:/Users/aarna/eclipse-workspace/JustEatRestaurentProject/src/test/java/feature/searchRes.feature"
+  }
+]
